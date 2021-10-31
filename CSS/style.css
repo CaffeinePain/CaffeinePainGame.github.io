@@ -70,8 +70,12 @@ body {
   background-color: salmon;
 }
 
-.zee {
+.zeeLeft {
   background-color: #e6a23c;
+}
+
+.zeeRight {
+  background-color: skyblue;
 }
 
 .elLeft {
