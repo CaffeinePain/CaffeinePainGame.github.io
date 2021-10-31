@@ -1,3 +1,5 @@
+import BLOCKS from "./blocks.js";
+
 // DOM
 const playground = document.querySelector(".playground > ul");
 
