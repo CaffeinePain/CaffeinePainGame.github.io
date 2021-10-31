@@ -20,6 +20,8 @@ body {
 
 .playground > ul {
   border: 1px solid #333;
+  width: 250px;
+  margin: 0 auto;
 }
 
 .playground > ul > li {
@@ -34,5 +36,9 @@ body {
 .playground > ul > li > ul > li {
   width: 25px;
   height: 25px;
-  outline: 1px outline #ccc;
+  outline: 1px solid #ccc;
+}
+
+.tree {
+  background-color: #67c23a;
 }
