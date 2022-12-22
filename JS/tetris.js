@@ -104,8 +104,8 @@ function checkMatch() {
             prependNewLine();
             score += 1000;
             scoreDisplay.innerText = score;
-            if(score % 1000 == 0) {
-                duration = duration * 0.95//속도 올리기
+            if(score % 2000 == 0) {
+                duration = duration * 0.9//속도 올리기
             }
         }
     })
