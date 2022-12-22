@@ -39,7 +39,7 @@ function init() {
 function prependNewLine() {
     const li = document.createElement("li");
     const ul = document.createElement("ul");
-    for(let j=0; j<10; j++) {
+    for(let j=0; j<GAME_COLS; j++) {
         const matrix = document.createElement("li");
         ul.prepend(matrix);
     }
