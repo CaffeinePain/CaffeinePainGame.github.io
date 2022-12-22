@@ -27,6 +27,9 @@ init();
 // functions
 function init() {
     tempMovingItem = { ...MovingItem };
+    score = 0;
+    scoreDisplay.innerText = score;
+    duration = 500;
     for(let i=0; i<GAME_ROWS; i++) {
         prependNewLine();
     }
@@ -99,8 +102,11 @@ function checkMatch() {
         if(matched) {
             child.remove();
             prependNewLine();
-            score++;
+            score += 1000;
             scoreDisplay.innerText = score;
+            if(score % 1000 == 0) {
+                duration = duration * 0.95//속도 올리기
+            }
         }
     })
 
